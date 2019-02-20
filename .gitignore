@@ -1,0 +1,6 @@
+# data　dir内のファイルはgitから除外する#
+/data/moodledata/*
+!.gitkeep
+/data/mysql/*
+!.gitkeep
+/public_html/moodle/*

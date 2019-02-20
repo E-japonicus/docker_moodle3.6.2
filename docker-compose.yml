@@ -1,0 +1,28 @@
+version: '3'
+services:
+  app:
+    container_name: mdl_php
+    build:
+      context: ./docker/php
+      dockerfile: Dockerfile
+    tty: true
+    volumes:
+      - ./public_html:/var/www/html
+      - ./data/moodledata:/var/www/moodledata
+    ports:
+      - '80:80'
+    networks:
+      - mdlnet
+
+  mysql:
+    container_name: mdl_mysql
+    image: mysql:5.7
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+    volumes:
+      - ./data/mysql:/var/lib/mysql
+    networks:
+      - mdlnet
+
+networks:
+  mdlnet:
