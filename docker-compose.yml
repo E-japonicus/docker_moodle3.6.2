@@ -12,7 +12,7 @@ services:
     ports:
       - '80:80'
     networks:
-      - mdlnet
+      - mdlnet_362
 
   mysql:
     container_name: mdl_mysql5.7
@@ -22,7 +22,7 @@ services:
     volumes:
       - ./data/mysql:/var/lib/mysql
     networks:
-      - mdlnet
+      - mdlnet_362
 
 networks:
-  mdlnet:
+  mdlnet_362:
