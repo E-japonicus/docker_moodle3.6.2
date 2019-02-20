@@ -1,6 +1,6 @@
 <?php
 // defineの値は環境によって変えてください。
-define('HOSTNAME', 'mdl_mysql');
+define('HOSTNAME', 'mdl_mysql5.7');
 define('DATABASE', 'mysql');
 define('USERNAME', 'root');
 define('PASSWORD', 'root');
