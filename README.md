@@ -2,6 +2,12 @@
 ## moodleのインストール手順
 1. docker-composeでコンテナを立てる
 
+1. moodleをダウンロード  
+    https://download.moodle.org/releases/latest/
+
+1. 解凍したmoodleフォルダをpublic_html内に配置  
+    http://localhost/moodle  にアクセスするとインストールが始まる
+
 1. 言語の選択  
     すきな言語を選択する    
 
