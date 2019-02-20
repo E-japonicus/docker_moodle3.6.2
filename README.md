@@ -19,7 +19,7 @@
     `improved MySQL`    
 
 1. データベース設定  
-    データベースホスト；`mdl_mysql5.6`  
+    データベースホスト；`mdl_mysql5.7`  
     データベース名；`moodle`  
     データベースユーザー；`root`  
     データベースパスワード；`XXXX`  
