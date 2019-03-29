@@ -4,5 +4,5 @@
 /data/mysql/*
 !.gitkeep
 # moodle dir内のファイルはgitから除外する#
-/public_html/moodle/*
+/public_html/moodle/
 !.gitkeep
